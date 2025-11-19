@@ -1,81 +1,97 @@
-# 🌐 Rose Wangui - Aspiring SOC Analyst
+# 👩🏾‍💻 SOC Analyst Portfolio – Rose W.
 
-![SOC Analyst](https://img.shields.io/badge/Role-SOC%20Analyst-blue)
-![Python](https://img.shields.io/badge/Python-Beginner-yellow)
-![Linux](https://img.shields.io/badge/Linux-Ubuntu-orange)
-![Learning](https://img.shields.io/badge/Learning-24%2F7-green)
+Welcome to my Security Operations Center (SOC) Analyst Portfolio.  
+This repository highlights my practical hands-on experience in:
 
-Hi! I’m **Rose Wangui**, an aspiring **SOC Analyst** passionate about threat monitoring, log analysis, and incident response.  
-This portfolio showcases my **skills, labs, projects, and learning journey**.
+- Log analysis  
+- SIEM investigations (Splunk, Elastic, LetsDefend, BTLO)  
+- Threat detection & MITRE ATT&CK  
+- Packet analysis (Wireshark)  
+- Malware analysis (static)  
+- Incident reporting  
+- Blue Team fundamentals  
 
----
-
-## 🛠 Skills
-
-| Category               | Skills                                                                 |
-|------------------------|-----------------------------------------------------------------------|
-| **Networking**          | TCP/IP, DNS, DHCP, VPN, Wireshark                                      |
-| **Security Tools**      | Splunk, ELK Stack, SIEM tools, Snort, Suricata, Zeek                   |
-| **OS**                  | Windows, Linux (Ubuntu, Kali)                                          |
-| **Scripting/Automation**| Python (basic), Bash                                                   |
-| **Threat Intel**        | MITRE ATT&CK, Threat Hunting                                           |
-| **Incident Response**   | Log analysis, Malware detection, SOC playbooks                         |
+My goal is to work as a **Tier 1 SOC Analyst**.
 
 ---
 
-## 🧪 Labs & Projects
+## 🛡️ Skills Overview
 
-### 1️⃣ Network Traffic Analysis
-**Objective:** Detect suspicious traffic using Wireshark.  
-**Tools Used:** Wireshark, TCPDump  
-**Learned:** Packet analysis, identifying malicious IPs & traffic patterns  
-**Screenshots / Files:**  
-![Wireshark Screenshot](assets/network-traffic-example.png)  
-[View Lab](labs/network-traffic/README.md)
+### 🔹 Technical Skills
+- SIEM: Splunk, Elastic Security, LetsDefend, Wazuh  
+- Tools: Wireshark, Volatility, Sysinternals, OSQuery  
+- OS: Linux (Ubuntu), Windows 10/11  
+- Networking: TCP/IP, DNS, HTTP, Ports & Protocols  
+- Analysis: Log correlation, Indicators of compromise (IOCs)  
 
-### 2️⃣ SIEM Log Monitoring Simulation
-**Objective:** Monitor logs for anomalies using Splunk.  
-**Tools Used:** Splunk, Ubuntu  
-**Learned:** Alert creation, correlation rules, incident escalation  
-![Splunk Dashboard](assets/siem-dashboard-example.png)  
-[View Lab](labs/siem-monitoring/README.md)
-
-### 3️⃣ Python Threat Detection Script
-**Objective:** Automate detection of suspicious log entries.  
-**Tools Used:** Python, CSV logs  
-**Learned:** Log parsing, automation  
-![Python Script](assets/python-script-example.png)  
-[View Lab](labs/python-scripts/README.md)
+### 🔹 Security Concepts
+- MITRE ATT&CK  
+- Incident Response Lifecycle  
+- Threat Intelligence  
+- Malware behaviors  
+- Phishing analysis  
 
 ---
 
-## 🏆 Certifications & Learning Paths
+## 📚 Projects & Case Studies
 
-![Cybrary](https://img.shields.io/badge/Cybrary-Intro%20to%20SOC-blue)
-![TryHackMe](https://img.shields.io/badge/TryHackMe-SOC%20Path-green)
-![Splunk](https://img.shields.io/badge/Splunk-Fundamentals%201-orange)
-![Python](https://img.shields.io/badge/Python-FreeCodeCamp-yellow)
-
-- [Cybrary: Intro to SOC Analyst](certifications/cybrary/)  
-- [TryHackMe: SOC Analyst Path](certifications/tryhackme/)  
-- [Splunk Fundamentals 1](certifications/splunk/)  
-- [FreeCodeCamp Python Basics](certifications/python/)
-
----
-
-## 📂 Blog / Writeups
-- [Case Study: Detecting a Brute Force Attack](blog-writeups/brute-force-attack.md)  
-- [Lab: Investigating Malware Traffic](blog-writeups/malware-traffic.md)  
+Below are real hands-on investigations and blue team exercises I’ve completed.  
+Each project includes:
+- Summary  
+- Tools used  
+- Evidence & screenshots  
+- MITRE mapping  
+- Final conclusion  
+- Recommendations  
 
 ---
 
-## 📫 Contact Me
-
-- **Email:** rose.wangui.tech@gmail.com  
-- **LinkedIn:** [linkedin.com/in/yourprofile](#)  
-- **Twitter:** [@yourhandle](#)  
+### 🔎 1. **Brute Force Login Investigation (Windows Event Logs)**
+**Tools:** Event Viewer, Sysmon, Sigma rules  
+**Skills:** Log analysis, detection, correlation  
+📄 **Report:** `/Case-Studies/Brute-Force-Windows/Report.pdf`
 
 ---
 
-> “Learning never exhausts the mind.” – Leonardo da Vinci
-# rosewanguitech_maker
+### 🌐 2. **Unauthorized Network Scan Detected (Wireshark PCAP Analysis)**
+**Tools:** Wireshark  
+**Skills:** Packet analysis, network forensics  
+📄 **Report:** `/Case-Studies/Network-Scan-PCAP/Report.pdf`
+
+---
+
+### 🛠 3. **Suspicious PowerShell Execution (SOC Investigation)**  
+**Tools:** Splunk (Work+), Sysmon logs  
+**Skills:** SIEM detection, Sysmon event correlation  
+📄 **Report:** `/Case-Studies/PowerShell-Investigation/Report.pdf`
+
+---
+
+### 🦠 4. **Malware Static Analysis (Sample from MalwareBazaar)**  
+**Tools:** Strings, PEStudio, Hashing tools  
+**Skills:** IOCs extraction, malware behavior profiling  
+📄 **Report:** `/Case-Studies/Malware-Static/Report.pdf`
+
+---
+
+### 📩 5. **Phishing Email Analysis**
+**Tools:** Any.Run, VirusTotal  
+**Skills:** Header analysis, attachment analysis  
+📄 **Report:** `/Case-Studies/Phishing-Analysis/Report.pdf`
+
+---
+
+## 🧰 Additional Mini-Labs
+Short labs I’ve completed:
+
+- Extracting IOCs from logs  
+- DNS tunneling detection basics  
+- Detecting persistence mechanisms  
+- Analyzing Windows Event ID patterns  
+- Creating basic Splunk detection queries  
+
+Each mini-lab has its own folder.
+
+---
+
+## 📁 Repository Structure
