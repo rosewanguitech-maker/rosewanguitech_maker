@@ -46,10 +46,10 @@ Each project includes:
 
 ---
 
-### 🔎 1. **Brute Force Login Investigation (Windows Event Logs)**
-**Tools:** Event Viewer, Sysmon, Sigma rules  
-**Skills:** Log analysis, detection, correlation  
-📄 **Report:** `/Case-Studies/Brute-Force-Windows/Report.pdf`
+### 🔎 1. **Brute Force Login Investigation (Linux SSH)**
+Tools: Hydra, OpenSSH, Ubuntu auth logs (/var/log/auth.log), grep, awk
+Skills: Log analysis, threat detection, brute-force investigation, IOC extraction
+📄 Report: /Case-Studies/Brute-Force-SSH-Ubuntu/Report.md
 
 ---
 
